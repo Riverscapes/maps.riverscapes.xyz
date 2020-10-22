@@ -13,5 +13,21 @@
       "90": ["BRAT_CRB/VBET/90", "#006400", "#007A12"],
       "100": ["BRAT_CRB/VBET/100", "#006400", "#006400"]
     }
-  }  
+  },
+  {
+    "title": "Beaver Observation",
+    "url": "beaver_observation",
+    "rasterTiles": {},
+    "tegolaTiles": {
+      "observations": {
+        "bounds": [ -117.143230002453, 41.996588147189, -111.047751066515, 48.9670454696434 ]
+      }
+    }
+  },
+  {
+    "title": "BRAT",
+    "url": "BRAT",
+    "rasterTiles": {},
+    "tiles": {}
+  }
 ]

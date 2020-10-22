@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Idaho",
+    "url": "idaho",
+    "tileVertsion": "V2",
+    "layers": {
+      "bratSourceTiles": "idaho/V2/brat",
+      "contextSourceTiles":"idaho/V2/context",
+      "census": "idaho/V2/census/dam_census.json",
+      "huc8summary": "idaho/V2/huc8summary.json"
+    },
+    "map": {
+      "bounds": [
+        -118.435876,
+        41.127826,
+        -110.15734,
+        50.226445
+      ],
+      "zoom": 12,
+      "latitude": 45.703402886,
+      "longitude": -115.13912203,
+      "maxZoom": 15,
+      "minZoom": 6
+    }
+  },
+  {
+    "title": "CRB",
+    "url": "crb",
+    "layers": {
+      "bratSourceTiles": "crb/brat",
+      "contextSourceTiles": "crb/context",
+      "census": "idaho/V2/census/dam_census.json",
+      "huc8summary": "crb/brat/huc8summary.json"
+    },
+    "lookups": "crb/brat/lookups.json",
+    "map": {
+      "bounds": [
+        -123.166302,41.404876,-110.723507,48.972436
+      ],
+      "zoom": 10,
+      "latitude": 47.398215,
+      "longitude": -121.113281,
+      "maxZoom": 14,
+      "minZoom": 6
+    }
+  }  
+]
